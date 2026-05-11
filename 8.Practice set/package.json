@@ -1,0 +1,17 @@
+{
+  "name": "8.practice-set",
+  "version": "1.0.0",
+  "description": "Practice problem on express js",
+  "license": "ISC",
+  "author": "Vedanand",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.11"
+  }
+}
