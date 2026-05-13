@@ -38,10 +38,7 @@ app.post("/contact-us",(req,res,next)=>{
 
 app.use(bodyParser.urlencoded());
 
-app.post("/contact-us",(req,res,next)=>{
-  console.log("HANDLING /contact-us FOR POST",req.url,req.method,req.body);
-  res.send("<h1>WE'LL CONTACT YOU SHORTLY </h1>");
-});
+
 
 
 const PORT = 3000;
